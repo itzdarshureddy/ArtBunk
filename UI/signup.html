@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="loginForm.css">
+
+</head>
+<body>
+	<div id="loginContent">
+	<section class="dialog-outer">
+    <div class="dialog">
+
+        <header>
+            <h1 class="logo">Tastebuddy</h1>
+            
+        </header>
+
+        
+        
+        
+
+        <div class="dialog-main">
+            
+
+
+            <form method="POST" id="login-form" class="adjacent" action="/accounts/login/">
+                <p> <input name="email" maxlength="30" autocapitalize="off" placeholder="Email address" autocorrect="off" type="email" id="id_email" /></p>
+                <p><input name="username" maxlength="30" autocapitalize="off" autocorrect="off" type="text" placeholder="Full name" id="id_username" /></p>
+				<p> <input autocapitalize="off" autocorrect="off" type="password" name="password" placeholder="Password" id="id_password" /></p>
+                <p class="form-actions">
+                    <input type="submit" class="button-green" value="Sign up" />
+                </p>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+	</div>
+<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+</body>
+</html>
